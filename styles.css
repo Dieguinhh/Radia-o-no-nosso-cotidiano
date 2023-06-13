@@ -43,20 +43,20 @@ header{
   justify-content: space-between;
   box-shadow: 0px 2px 9px black;
   border-bottom: 4px ridge yellow;
-  margin: 0px;
+  margin-left: 20px;
   }
 
 .nav-list{
   display: flex;
   background: linear-gradient(135deg, rgb(0,0,0) 35%, rgb(255,255,0) 115%);
- margin: 0px
+ margin-left: 20px
   }
 
 .nav-list ul{
   list-style: none;
   font-size: 40px;
   color: yellow;
-  margin: 15px 0px 15px 25px;
+  padding: 15px 0px 15px 25px;
   text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   display: flex;
   }
@@ -175,7 +175,7 @@ footer{
 .footer_section{
   color: white;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 8px;
   
 }
 
@@ -184,7 +184,7 @@ footer{
   color: yellow;
   text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-size: 35px;
-  padding-bottom: 7px;
+  padding-bottom: 6px;
 }
 
 .footer_section p{
