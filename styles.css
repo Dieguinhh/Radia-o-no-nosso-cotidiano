@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500&family=Yuji+Hentaigana+Akebono&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Mukta";
+}
+
+body{
+  background: rgb(255,250,250);
+  background: linear-gradient(135deg, rgb(255,250,250) 17%, rgb(255,255,0) 145%);
+  }
+
+header{
+   border-bottom: 4px ridge yellow;
+  margin: 0px;
+  }
+
+.menu{
+  display: flex;
+  align-items: center;
+  border-bottom: 4px ridge yellow;
+  background: rgb(0,0,0);
+  background: linear-gradient(45deg, rgb(0,0,0) 35%, rgb(255,255,0) 115%);
+  box-shadow: 0px 2px 9px black;
+  margin: 0px;
+  }
+
+.menu-img{
+  width: 150px;
+  border-radius: 50%;
+}
+
+.menu-text{
+  font-size: 68px;
+  padding-left: 60px;
+  color: yellow;
+  margin-top: 5px;
+  text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.nav-bar{
+  display: flex;
+  box-shadow: 0px 2px 9px black;
+  border-bottom: 4px ridge yellow;
+  margin: 0px;
+  }
+
+.nav-list{
+  display: flex;
+  background: linear-gradient(135deg, rgb(0,0,0) 35%, rgb(255,255,0) 115%);
+ margin: 0px;
+  }
+
+.nav-list ul{
+  list-style: none;
+  font-size: 40px;
+  color: yellow;
+  padding: 15px 0px 15px 0px;
+  text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  display: flex;
+  }
+
+.nav-items{
+  padding:0px 100px;
+  
+  }
+
+.nav-items a{
+  
+  text-decoration-line: none;
+  color: yellow;
+  }
+
+.nav-list ul li{
+  border-right: 2px ridge yellow;
+  }
+
+.mobile-menu-icon{
+  display: none;
+  }
+.mobile-menu{
+  display: none;
+  }
+
+.intro h2{
+ font-size: 70px;
+  align-items: center;
+  margin: 50px 0px 15px 20px;
+}
+
+.intro p{
+  text-indent: 70px;
+  font-size: 44px;
+  text-align:justify;
+  padding: 40px;
+}
+
+.intro_img{
+  text-align: center;
+  align-items: center;
+  margin: 90px 0px;
+  
+  }
+
+.intro_img img{
+  border: 10px solid black;
+  box-shadow: 0px 2px 9px black;
+  width: 80%;
+  }
+
+.intro_img p{
+  font-size: 28px;
+  margin-left: 10px;
+  padding-top: 0px;
+  }
+
+.radi_img{
+  text-align: center;
+  margin: 90px 0px;
+  
+  }
+
+.radi_img img{
+  border: 10px solid black;
+  box-shadow: 0px 2px 9px black;
+  width: 80%;
+  height: 400px;
+  
+  }
+
+.radi_img p{
+  font-size: 28px;
+  justify-content: center;
+  padding-top: 0px;
+  margin-right: 60px;
+  }
+
+.radi_img a{
+  font-size: 30px;
+  
+  }
+
+.camp_img{
+  text-align: center;
+  
+  }
+
+.camp01_img{
+  padding-bottom: 80px;
+  }
+
+.camp01_img img{
+  width: 87%;
+  border: 10px solid white;
+    box-shadow: 0px 2px 9px grey;
+  margin-right: 50px;
+  }
+
+.camp02_img img{
+  width: 87%;
+  border: 10px solid white;
+    box-shadow: 0px 2px 9px grey;
+  margin-left: 50px;
+  }
+
+footer{
+   background: linear-gradient(45deg, rgb(0,0,0) 35%, rgb(255,255,0) 115%);
+  width: 100%;
+  height: 160px;
+  margin-top: 80px;
+  border-top: 4px ridge yellow;
+}
+
+.footer_section{
+  color: white;
+  text-align: center;
+  margin-top: 12px;
+  
+}
+
+.footer_section h3{
+  
+  color: yellow;
+  text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 35px;
+  padding-bottom: 7px;
+}
+
+.footer_section p{
+  
+  font-size: 25px;
+}
+
+@media(max-width: 900px){
+  
+  
+  header{
+    border: none;
+    box-shadow: none;
+    }
+  
+  .menu-img{
+    width: 70px;
+    
+    }
+  
+  .menu-text{
+    font-size: 27px;
+    margin-left: 30px;
+  }
+  
+  .mobile-menu-icon {
+    display: block;
+    
+    }
+  
+  .mobile-menu-icon button{
+    background: black;
+    cursor: pointer;
+    width: 45px;
+    height: 42px;
+    border: 4px yellow;
+    border-style: none ridge ridge none;
+    box-shadow: 0px 2px 9px black;
+    background: linear-gradient(215deg, rgb(0,0,0) 50%, rgb(255,255,0) 105%);
+    }
+  
+  .mobile-menu{
+    background: black;
+    margin-right: 260px;
+    margin-left: 1px;
+    border: 4px yellow;
+    border-style: ridge ridge ridge none;
+    box-shadow: 0px 2px 9px black;
+    margin-bottom: 5px;
+    }
+  
+  .mobile-menu ul{
+    list-style:  none;
+    background: linear-gradient(45deg, rgb(0,0,0) 35%, rgb(255,255,0) 115%);
+    
+    }
+  
+  .nav-items{
+    padding: 17px 0px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid yellow;
+  text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+    }
+  
+  
+  .nav-list{
+    display: none;
+    }
+  
+  .nav-bar{
+    display: none;
+    
+    }
+  
+  .open{
+    display: block;
+    }
+  
+  .intro h2{
+    font-size: 45px;
+    margin-left: 10px;
+    margin-top: 12px;
+    
+  }
+  
+  .intro p{
+   font-size: 21px; 
+    text-indent: 35px;
+    padding: 15px;
+  }
+  
+  .intro_img{
+  
+  margin: 50px 0px;
+  
+  }
+
+.intro_img img{
+  border: 6px solid black;
+  box-shadow: 0px 2px 9px black;
+  width: 85%;
+  }
+  
+  .intro_img p{
+    font-size: 13px;
+    margin-left: -15px;
+    margin-right: 0px;
+    padding-top: 0px;
+    
+    }
+  
+  .radi_img{
+  text-align: center;
+  margin: 70px 0px;
+    align-items: center;
+  
+  }
+  
+
+.radi_img img{
+  border: 6px solid black;
+  box-shadow: 0px 2px 9px black;
+  width: 85%;
+  height: 170px;
+  
+  }
+  .radi_img p{
+  font-size: 13px;
+  padding-top: 0px;
+  margin-left: -15px;
+    margin-right: 0px;
+  }
+  
+  .radi_img a{
+  font-size: 15px;
+  }
+
+.camp_img{
+  text-align: center;
+  
+  }
+
+.camp01_img{
+  padding-bottom: 70px;
+  }
+
+.camp01_img img{
+  width: 85%;
+  border: 10px solid white;
+    box-shadow: 0px 2px 9px grey;
+  margin-right: 18px;
+  height: 200px;
+  }
+
+.camp02_img img{
+  width: 85%;
+  border: 10px solid white;
+    box-shadow: 0px 2px 9px grey;
+  margin-left: 18px;
+  height: 200px;
+  }
+  
+  footer{
+    height: 140px;
+    }
+
+.footer_section h3{
+  
+  color: yellow;
+  text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 30px;
+  padding-bottom: 12px;
+}
+
+.footer_section p{
+  color: white;
+  font-size: 20px;
+}
+}
+
+
