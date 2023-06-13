@@ -22,7 +22,7 @@ header{
   background: rgb(0,0,0);
   background: linear-gradient(45deg, rgb(0,0,0) 35%, rgb(255,255,0) 115%);
   box-shadow: 0px 2px 9px black;
-  
+  margin: 0px;
   }
 
 .menu-img{
@@ -42,13 +42,13 @@ header{
   display: flex;
   box-shadow: 0px 2px 9px black;
   border-bottom: 4px ridge yellow;
-  
+  margin: 0px;
   }
 
 .nav-list{
   display: flex;
   background: linear-gradient(135deg, rgb(0,0,0) 35%, rgb(255,255,0) 115%);
- 
+ margin: 0px;
   }
 
 .nav-list ul{
@@ -136,7 +136,7 @@ header{
   }
 
 .radi_img a{
-  font-size: 30px;
+  font-size: 500px;
   
   }
 
@@ -174,7 +174,7 @@ footer{
 .footer_section{
   color: white;
   text-align: center;
-  margin-top: 8px;
+  margin-top: 6px;
   
 }
 
