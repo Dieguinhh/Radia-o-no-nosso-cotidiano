@@ -12,7 +12,7 @@ body{
 
 header{
    border-bottom: 4px ridge yellow;
-  margin: 0px;
+  
   }
 
 .menu{
@@ -22,7 +22,7 @@ header{
   background: rgb(0,0,0);
   background: linear-gradient(45deg, rgb(0,0,0) 35%, rgb(255,255,0) 115%);
   box-shadow: 0px 2px 9px black;
-  margin: 0px;
+  
   }
 
 .menu-img{
@@ -42,14 +42,15 @@ header{
   display: flex;
   box-shadow: 0px 2px 9px black;
   border-bottom: 4px ridge yellow;
-  margin: 0px;
-  padding: 0px 0px 0px 30px;
+  
+
+
   }
 
 .nav-list{
   display: flex;
   background: linear-gradient(135deg, rgb(0,0,0) 35%, rgb(255,255,0) 115%);
- margin: 0px;
+ 
   
   }
 
