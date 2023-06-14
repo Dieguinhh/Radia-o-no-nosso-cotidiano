@@ -32,7 +32,7 @@ header{
 
 .menu-text{
   font-size: 68px;
-  padding-left: 60px;
+  padding-left: 80px;
   color: yellow;
   margin-top: 5px;
   text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -51,8 +51,8 @@ header{
   }
 
 .nav-items{
-  padding: 5px 94px;
-  border-right: 2px ridge yellow;
+  padding: 5px 100px;
+  
   }
 
 .nav-items a{
